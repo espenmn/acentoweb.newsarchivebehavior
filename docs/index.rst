@@ -1,0 +1,5 @@
+==============================
+accentoweb.newsarchivebehavior
+==============================
+
+User documentation

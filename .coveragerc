@@ -1,0 +1,6 @@
+[report]
+include =
+    src/accentoweb/*
+omit =
+    */test*
+    */upgrades/*

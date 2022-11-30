@@ -1,0 +1,4 @@
+graft src/accentoweb
+graft docs
+include *.rst
+global-exclude *.pyc
