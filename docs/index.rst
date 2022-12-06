@@ -1,5 +1,5 @@
 ==============================
-accentoweb.newsarchivebehavior
+acentoweb.newsarchivebehavior
 ==============================
 
 User documentation

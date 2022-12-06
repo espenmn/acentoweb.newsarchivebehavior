@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the accentoweb.newsarchivebehavior package."""
+"""Installer for the acentoweb.newsarchivebehavior package."""
 
 from setuptools import find_packages
 from setuptools import setup
@@ -13,7 +13,7 @@ long_description = '\n\n'.join([
 
 
 setup(
-    name='accentoweb.newsarchivebehavior',
+    name='acentoweb.newsarchivebehavior',
     version='1.0a1',
     description="A Plone behavior that adds an index with 'published month and year' to use with collective.collectionfilter",
     long_description=long_description,
@@ -31,16 +31,16 @@ setup(
     keywords='Python Plone',
     author='Espen Moe-Nilssen',
     author_email='espen@medialog.no',
-    url='https://github.com/collective/accentoweb.newsarchivebehavior',
+    url='https://github.com/collective/acentoweb.newsarchivebehavior',
     project_urls={
-        'PyPI': 'https://pypi.python.org/pypi/accentoweb.newsarchivebehavior',
-        'Source': 'https://github.com/collective/accentoweb.newsarchivebehavior',
-        'Tracker': 'https://github.com/collective/accentoweb.newsarchivebehavior/issues',
-        # 'Documentation': 'https://accentoweb.newsarchivebehavior.readthedocs.io/en/latest/',
+        'PyPI': 'https://pypi.python.org/pypi/acentoweb.newsarchivebehavior',
+        'Source': 'https://github.com/collective/acentoweb.newsarchivebehavior',
+        'Tracker': 'https://github.com/collective/acentoweb.newsarchivebehavior/issues',
+        # 'Documentation': 'https://acentoweb.newsarchivebehavior.readthedocs.io/en/latest/',
     },
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
-    namespace_packages=['accentoweb'],
+    namespace_packages=['acentoweb'],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
@@ -68,6 +68,6 @@ setup(
     [z3c.autoinclude.plugin]
     target = plone
     [console_scripts]
-    update_locale = accentoweb.newsarchivebehavior.locales.update:update_locale
+    update_locale = acentoweb.newsarchivebehavior.locales.update:update_locale
     """,
 )

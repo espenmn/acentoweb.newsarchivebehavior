@@ -3,7 +3,7 @@
    This text does not appear on pypi or github. It is a comment.
 
 ==============================
-accentoweb.newsarchivebehavior
+acentoweb.newsarchivebehavior
 ==============================
 
 Tell me what your product does
@@ -38,14 +38,14 @@ This product has been translated into
 Installation
 ------------
 
-Install accentoweb.newsarchivebehavior by adding it to your buildout::
+Install acentoweb.newsarchivebehavior by adding it to your buildout::
 
     [buildout]
 
     ...
 
     eggs =
-        accentoweb.newsarchivebehavior
+        acentoweb.newsarchivebehavior
 
 
 and then running ``bin/buildout``
@@ -54,8 +54,8 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/accentoweb.newsarchivebehavior/issues
-- Source Code: https://github.com/collective/accentoweb.newsarchivebehavior
+- Issue Tracker: https://github.com/collective/acentoweb.newsarchivebehavior/issues
+- Source Code: https://github.com/collective/acentoweb.newsarchivebehavior
 - Documentation: https://docs.plone.org/foo/bar
 
 

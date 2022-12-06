@@ -42,7 +42,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'accentoweb.newsarchivebehavior'
+project = u'acentoweb.newsarchivebehavior'
 copyright = u'Espen Moe-Nilssen (espenmn)'
 author = u'Espen Moe-Nilssen (espenmn)'
 
@@ -199,7 +199,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'accentoweb.newsarchivebehaviordoc'
+htmlhelp_basename = 'acentoweb.newsarchivebehaviordoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 

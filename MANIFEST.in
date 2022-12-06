@@ -1,4 +1,4 @@
-graft src/accentoweb
+graft src/acentoweb
 graft docs
 include *.rst
 global-exclude *.pyc
