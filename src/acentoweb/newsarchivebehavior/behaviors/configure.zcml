@@ -1,0 +1,22 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  i18n_domain="plone">
+
+    <include package="plone.behavior" file="meta.zcml"/>
+
+    <!-- -*- extra stuff goes here -*- -->
+
+    <plone:behavior
+        name="acentoweb.newsarchivebehavior.news_archive_behavior"
+        title="News Archive Behavior"
+        description="Adds 'month and year index to use with collective.contentfilter"
+        provides=".news_archive_behavior.INewsArchiveBehavior"
+        factory=".news_archive_behavior.NewsArchiveBehavior"
+        marker=".news_archive_behavior.INewsArchiveBehaviorMarker"
+        />
+
+
+</configure>
